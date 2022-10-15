@@ -1,0 +1,8 @@
+.body {
+    width: 70%;
+    border: 1px solid black;
+    height: fit-content;
+    display: flexbox;
+    text-align: center;
+    flex: content;
+}

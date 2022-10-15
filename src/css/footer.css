@@ -1,0 +1,38 @@
+footer {
+    color: #fff;
+    background: #333;
+    position: relative;
+    font-size: 80%;
+}
+body {
+    
+    flex-direction: column;
+}
+.copyright {
+    width: 100%;
+    height: 30px;
+    background: #111;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.footer {
+    margin-bottom: 40px;
+    padding: 30px;
+}
+.footer > div:first-child {
+    font-size: 150%;
+}
+.alink {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+.alink > li  a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 7px;
+}
